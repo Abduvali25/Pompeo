@@ -1,0 +1,74 @@
+@import "./main.scss";
+@import "./about.scss";
+@import "./shop.scss";
+@import "./fontss";
+
+.xabar{
+    background-color: white;
+}
+.for__email2{
+    margin-top: 30px;
+    h2{
+        font-size: 14px;
+    }
+}
+.drop__img{
+    background-image: url("../imgs/choy-bg.png");
+    height: 200px;
+    margin-top: 50px;
+}
+.drop{
+   .drop__box{
+    display: flex;
+    border: 1px solid rgba($color: #000000, $alpha: 0.3);
+   }
+  .drop__contener{
+    
+    .black__img{
+        padding: 50px 80px;
+        .black{
+            height: 550px;
+            width: 500px;
+            background-color: #eee;
+        }
+    }
+  }
+  .drop__text{
+     
+    h1{
+        margin-bottom: 10px;
+    }
+    .label{
+        margin-left: 200px;
+    }
+    label{
+        margin: 20px 0px 10px 0px;
+    }
+    margin-top: 50px;
+    input{
+        width:250px;
+        height: 40px;
+        padding: 10px;
+        background-color: #eee;
+        border: 1px solid rgba($color: #000000, $alpha: 0.2);
+    }
+    textarea{
+        width: 500px;
+        background-color: #eee;
+        border: 1px solid rgba($color: #000000, $alpha: 0.2);
+    }
+  }
+  .drop__btm{
+    
+    padding: 20px 30px;
+    background-color: #a5081a;
+    border: none;
+    color: white;
+    
+  }
+}
+@media screen and (max-width:600px) {
+    .drop{
+        display: none;
+    }
+}

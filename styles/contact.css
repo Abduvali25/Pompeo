@@ -1,0 +1,1998 @@
+@import "./main.css";
+@import "./main.css";
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar__logo img {
+  width: 150px;
+}
+.navbar .navbar__menus-img {
+  margin-top: 15px;
+}
+.navbar .white {
+  color: white;
+}
+.navbar .navbar__menus ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .navbar__menus ul li {
+  list-style: none;
+}
+.navbar .navbar__menus ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+.navbar .navbar__menus li:hover {
+  color: black;
+}
+.navbar .navbar-toggler {
+  display: none;
+}
+
+.red-text {
+  color: #900A22;
+  letter-spacing: 1.5px;
+}
+
+.gamburger {
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin: 20px;
+  display: none;
+}
+.gamburger p {
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+}
+
+.porcelain {
+  background-image: url("../imgs/bg-img.jpg");
+  height: 1000px;
+}
+
+.porcelain span {
+  letter-spacing: 1.5px;
+}
+.porcelain .porcelain__content {
+  margin-top: 0px;
+}
+.porcelain .porcelain__content .porcelain__info {
+  display: inline;
+  margin-top: 100px;
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__text {
+  margin: 0px;
+  font-size: 54px;
+  font-family: "Libre Franklin", sans-serif;
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__p {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+}
+.porcelain .porcelain__img {
+  margin-top: 200px;
+}
+
+.porcelain__text-img {
+  width: 80px;
+  display: inline-block;
+}
+
+.pottery__cirlces {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0px;
+}
+.pottery__cirlces .father,
+.pottery__cirlces .father-1,
+.pottery__cirlces .father-2 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pottery__cirlces .child,
+.pottery__cirlces .child-1,
+.pottery__cirlces .child-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pottery__cirlces .child img,
+.pottery__cirlces .child-1 img,
+.pottery__cirlces .child-2 img {
+  width: 70px;
+}
+.pottery__cirlces .child h3,
+.pottery__cirlces .child-1 h3,
+.pottery__cirlces .child-2 h3 {
+  display: block;
+}
+
+.father-2 {
+  background-color: #800614;
+}
+
+.child-2 {
+  background-color: #a5081a;
+  color: white;
+}
+.child-2 h3 {
+  font-size: 18px;
+}
+
+.father-1 {
+  background-color: #FF5003;
+}
+
+.child-1 {
+  background-color: #FF6F00;
+  color: white;
+}
+.child-1 h3 {
+  font-size: 18px;
+}
+
+.father {
+  background-color: #B0926A;
+}
+
+.child {
+  background-color: #E1C78F;
+  color: white;
+}
+.child h3 {
+  font-size: 18px;
+}
+
+.pottery__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Hand_Grafted,
+.Pottery_Produts {
+  margin-top: 100px;
+}
+.Hand_Grafted h1,
+.Pottery_Produts h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+.Hand_Grafted p,
+.Pottery_Produts p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", sans-serif;
+}
+
+.Pottery {
+  margin-top: 100px;
+}
+.Pottery .pottery__text h1 {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.Pottery .pottery__cirlces {
+  margin-top: 50px;
+}
+
+.view {
+  margin-top: 50px;
+}
+.view .view__content .gold__img img {
+  width: 300px;
+  margin-left: 100px;
+}
+.view .view__content .gold {
+  display: flex;
+}
+.view .view__content .gold__info1 {
+  margin-top: 200px;
+}
+.view .view__content .gold__info1 h1 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+.view .view__content .gold__info1 p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.view .view__content .gold__info1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.view .view__text {
+  margin-bottom: 100px;
+}
+.view .gold__info {
+  margin-top: 100px;
+}
+.view .gold__info-view {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+.view .gold__img-koza {
+  margin-left: 50px;
+}
+
+.Collection__menus .menu {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.Collection__menus .menu a {
+  text-decoration: none;
+}
+.Collection__menus .menu h4 {
+  text-align: start;
+  margin: 10px 0px 0px 10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Collection__menus .menu h5 {
+  text-align: start;
+  margin: 10px 0px 0px 10px;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+}
+.Collection__menus .menu img {
+  width: 400px;
+}
+
+.Collection {
+  margin-top: 50px;
+}
+.Collection h1 {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 50px;
+}
+.Collection .menus__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+  margin: 80px 0px 0px 550px;
+  font-size: 14px;
+}
+
+.Shopping {
+  margin-top: 130px;
+  background-image: url("../imgs/bg-img-2.jpeg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.Shopping .Shopping__content .Shopping__text {
+  margin-top: 130px;
+}
+.Shopping .Shopping__content .Shopping__text h1 {
+  font-size: 44px;
+}
+.Shopping .Shopping__content .Shopping__text p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Shopping .Shopping__content .Shopping__text .red {
+  color: #a5081a;
+}
+.Shopping .Shopping__content .Shopping__text .red a {
+  text-decoration: none;
+}
+.Shopping .Shopping__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+  font-size: 11px;
+}
+
+.news .telegram__img img {
+  width: 100px;
+  margin: 100px 0px 50px 0px;
+}
+.news .news__text {
+  margin-top: 30px;
+}
+.news .news-email {
+  margin-top: 30px;
+  display: flex;
+  display: inline-block;
+}
+.news .news-email .email {
+  width: 270px;
+  border: 1px solid black;
+  background-color: #eee;
+  padding: 10px;
+}
+.news .news-email .email input {
+  border: none;
+  background-color: #eee;
+}
+.news .news-email .email img {
+  text-align: start;
+  width: 30px;
+}
+.news .news__btn {
+  padding: 13px 30px;
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+.news .news__chekboxs {
+  margin-top: 40px;
+}
+.news .news__chekboxs .checkbox-text {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #eee;
+}
+.footer .footer__contnet {
+  margin-top: 150px;
+}
+.footer .footer__contnet .footer__text {
+  margin: 150px 0px 0px 0px;
+}
+.footer .footer__contnet .footer__text p {
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
+}
+.footer .footer__box .for__email img {
+  width: 40px;
+}
+.footer .footer__box .for__email h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+.footer .footer__box .for__email p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .sup-footer {
+  margin-top: 100px;
+}
+.footer .sup-footer .sup-footer-text {
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .sup-footer .sup-footer-text a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media screen and (max-width: 650px) {
+  .gamburger {
+    display: block;
+  }
+  .navbar__menus {
+    display: none;
+  }
+  .porcelain .porcelain__info {
+    text-align: center;
+  }
+  .porcelain .porcelain__info span {
+    text-align: center;
+  }
+  .porcelain .porcelain__img img {
+    width: 540px;
+    margin-top: 50px;
+  }
+  .pottery__info .Pottery_Produts {
+    display: none;
+  }
+  .pottery__cirlces {
+    margin-bottom: 20px;
+  }
+  .menus__btn {
+    display: none;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar__logo img {
+  width: 150px;
+}
+.navbar .navbar__menus-img {
+  margin-top: 15px;
+}
+.navbar .white {
+  color: white;
+}
+.navbar .navbar__menus ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .navbar__menus ul li {
+  list-style: none;
+}
+.navbar .navbar__menus ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+.navbar .navbar__menus li:hover {
+  color: black;
+}
+.navbar .navbar-toggler {
+  display: none;
+}
+
+.red-text {
+  color: #900A22;
+  letter-spacing: 1.5px;
+}
+
+.gamburger {
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin: 20px;
+  display: none;
+}
+.gamburger p {
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+}
+
+.porcelain {
+  background-image: url("../imgs/bg-img.jpg");
+  height: 1000px;
+}
+
+.porcelain span {
+  letter-spacing: 1.5px;
+}
+.porcelain .porcelain__content {
+  margin-top: 0px;
+}
+.porcelain .porcelain__content .porcelain__info {
+  display: inline;
+  margin-top: 100px;
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__text {
+  margin: 0px;
+  font-size: 54px;
+  font-family: "Libre Franklin", sans-serif;
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__p {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+}
+.porcelain .porcelain__img {
+  margin-top: 200px;
+}
+
+.porcelain__text-img {
+  width: 80px;
+  display: inline-block;
+}
+
+.pottery__cirlces {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0px;
+}
+.pottery__cirlces .father,
+.pottery__cirlces .father-1,
+.pottery__cirlces .father-2 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pottery__cirlces .child,
+.pottery__cirlces .child-1,
+.pottery__cirlces .child-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pottery__cirlces .child img,
+.pottery__cirlces .child-1 img,
+.pottery__cirlces .child-2 img {
+  width: 70px;
+}
+.pottery__cirlces .child h3,
+.pottery__cirlces .child-1 h3,
+.pottery__cirlces .child-2 h3 {
+  display: block;
+}
+
+.father-2 {
+  background-color: #800614;
+}
+
+.child-2 {
+  background-color: #a5081a;
+  color: white;
+}
+.child-2 h3 {
+  font-size: 18px;
+}
+
+.father-1 {
+  background-color: #FF5003;
+}
+
+.child-1 {
+  background-color: #FF6F00;
+  color: white;
+}
+.child-1 h3 {
+  font-size: 18px;
+}
+
+.father {
+  background-color: #B0926A;
+}
+
+.child {
+  background-color: #E1C78F;
+  color: white;
+}
+.child h3 {
+  font-size: 18px;
+}
+
+.pottery__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Hand_Grafted,
+.Pottery_Produts {
+  margin-top: 100px;
+}
+.Hand_Grafted h1,
+.Pottery_Produts h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+.Hand_Grafted p,
+.Pottery_Produts p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", sans-serif;
+}
+
+.Pottery {
+  margin-top: 100px;
+}
+.Pottery .pottery__text h1 {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.Pottery .pottery__cirlces {
+  margin-top: 50px;
+}
+
+.view {
+  margin-top: 50px;
+}
+.view .view__content .gold__img img {
+  width: 300px;
+  margin-left: 100px;
+}
+.view .view__content .gold {
+  display: flex;
+}
+.view .view__content .gold__info1 {
+  margin-top: 200px;
+}
+.view .view__content .gold__info1 h1 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+.view .view__content .gold__info1 p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.view .view__content .gold__info1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.view .view__text {
+  margin-bottom: 100px;
+}
+.view .gold__info {
+  margin-top: 100px;
+}
+.view .gold__info-view {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+.view .gold__img-koza {
+  margin-left: 50px;
+}
+
+.Collection__menus .menu {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.Collection__menus .menu a {
+  text-decoration: none;
+}
+.Collection__menus .menu h4 {
+  text-align: start;
+  margin: 10px 0px 0px 10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Collection__menus .menu h5 {
+  text-align: start;
+  margin: 10px 0px 0px 10px;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+}
+.Collection__menus .menu img {
+  width: 400px;
+}
+
+.Collection {
+  margin-top: 50px;
+}
+.Collection h1 {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 50px;
+}
+.Collection .menus__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+  margin: 80px 0px 0px 550px;
+  font-size: 14px;
+}
+
+.Shopping {
+  margin-top: 130px;
+  background-image: url("../imgs/bg-img-2.jpeg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.Shopping .Shopping__content .Shopping__text {
+  margin-top: 130px;
+}
+.Shopping .Shopping__content .Shopping__text h1 {
+  font-size: 44px;
+}
+.Shopping .Shopping__content .Shopping__text p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Shopping .Shopping__content .Shopping__text .red {
+  color: #a5081a;
+}
+.Shopping .Shopping__content .Shopping__text .red a {
+  text-decoration: none;
+}
+.Shopping .Shopping__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+  font-size: 11px;
+}
+
+.news .telegram__img img {
+  width: 100px;
+  margin: 100px 0px 50px 0px;
+}
+.news .news__text {
+  margin-top: 30px;
+}
+.news .news-email {
+  margin-top: 30px;
+  display: flex;
+  display: inline-block;
+}
+.news .news-email .email {
+  width: 270px;
+  border: 1px solid black;
+  background-color: #eee;
+  padding: 10px;
+}
+.news .news-email .email input {
+  border: none;
+  background-color: #eee;
+}
+.news .news-email .email img {
+  text-align: start;
+  width: 30px;
+}
+.news .news__btn {
+  padding: 13px 30px;
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+.news .news__chekboxs {
+  margin-top: 40px;
+}
+.news .news__chekboxs .checkbox-text {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #eee;
+}
+.footer .footer__contnet {
+  margin-top: 150px;
+}
+.footer .footer__contnet .footer__text {
+  margin: 150px 0px 0px 0px;
+}
+.footer .footer__contnet .footer__text p {
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
+}
+.footer .footer__box .for__email img {
+  width: 40px;
+}
+.footer .footer__box .for__email h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+.footer .footer__box .for__email p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .sup-footer {
+  margin-top: 100px;
+}
+.footer .sup-footer .sup-footer-text {
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .sup-footer .sup-footer-text a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media screen and (max-width: 650px) {
+  .gamburger {
+    display: block;
+  }
+  .navbar__menus {
+    display: none;
+  }
+  .porcelain .porcelain__info {
+    text-align: center;
+  }
+  .porcelain .porcelain__info span {
+    text-align: center;
+  }
+  .porcelain .porcelain__img img {
+    width: 540px;
+    margin-top: 50px;
+  }
+  .pottery__info .Pottery_Produts {
+    display: none;
+  }
+  .pottery__cirlces {
+    margin-bottom: 20px;
+  }
+  .menus__btn {
+    display: none;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar__logo img {
+  width: 150px;
+}
+
+.navbar .navbar__menus-img {
+  margin-top: 15px;
+}
+
+.navbar .white {
+  color: white;
+}
+
+.navbar .navbar__menus ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar .navbar__menus ul li {
+  list-style: none;
+}
+
+.navbar .navbar__menus ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar .navbar__menus li:hover {
+  color: black;
+}
+
+.navbar .navbar-toggler {
+  display: none;
+}
+
+.red-text {
+  color: #900A22;
+  letter-spacing: 1.5px;
+}
+
+.banner {
+  background-image: url("../imgs/chaynik-bg.jpg");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.About-us .About-us-text {
+  margin-top: 150px;
+}
+.About-us .About-us-text h1 {
+  font-size: 54px;
+}
+.About-us .About-us-text p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-2 {
+  background-color: #eee;
+}
+
+.talent .talent__box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.talent .talent__text {
+  margin-top: 50px;
+}
+.talent .talent__text h1 {
+  margin: 40px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.8px;
+}
+.talent .talent__cards {
+  padding-bottom: 50px;
+}
+.talent .talent__cards .talent__card {
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  padding: 30px 30px;
+}
+.talent .talent__cards .talent__card h3 {
+  font-size: 20px;
+}
+.talent .talent__cards .talent__card h4 {
+  font-size: 12px;
+  margin-top: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.talent .talent__cards .talent__card p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 40px;
+}
+.talent .talent__cards .talent__card .icons img {
+  width: 30px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.talent .talent__cards .talent__card .talent__img-2 {
+  width: 110px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+.talent .talent__cards .talent__card .talent__img {
+  margin-bottom: 30px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.jigarang-koza-2 {
+  margin-top: 200px;
+}
+
+.footer__text {
+  margin-top: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar__logo img {
+  width: 150px;
+}
+.navbar .navbar__menus-img {
+  margin-top: 15px;
+}
+.navbar .white {
+  color: white;
+}
+.navbar .navbar__menus ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .navbar__menus ul li {
+  list-style: none;
+}
+.navbar .navbar__menus ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+.navbar .navbar__menus li:hover {
+  color: black;
+}
+.navbar .navbar-toggler {
+  display: none;
+}
+
+.red-text {
+  color: #900A22;
+  letter-spacing: 1.5px;
+}
+
+.gamburger {
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin: 20px;
+  display: none;
+}
+.gamburger p {
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+}
+
+.porcelain {
+  background-image: url("../imgs/bg-img.jpg");
+  height: 1000px;
+}
+
+.porcelain span {
+  letter-spacing: 1.5px;
+}
+.porcelain .porcelain__content {
+  margin-top: 0px;
+}
+.porcelain .porcelain__content .porcelain__info {
+  display: inline;
+  margin-top: 100px;
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__text {
+  margin: 0px;
+  font-size: 54px;
+  font-family: "Libre Franklin", sans-serif;
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__p {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+}
+.porcelain .porcelain__img {
+  margin-top: 200px;
+}
+
+.porcelain__text-img {
+  width: 80px;
+  display: inline-block;
+}
+
+.pottery__cirlces {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0px;
+}
+.pottery__cirlces .father,
+.pottery__cirlces .father-1,
+.pottery__cirlces .father-2 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pottery__cirlces .child,
+.pottery__cirlces .child-1,
+.pottery__cirlces .child-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pottery__cirlces .child img,
+.pottery__cirlces .child-1 img,
+.pottery__cirlces .child-2 img {
+  width: 70px;
+}
+.pottery__cirlces .child h3,
+.pottery__cirlces .child-1 h3,
+.pottery__cirlces .child-2 h3 {
+  display: block;
+}
+
+.father-2 {
+  background-color: #800614;
+}
+
+.child-2 {
+  background-color: #a5081a;
+  color: white;
+}
+.child-2 h3 {
+  font-size: 18px;
+}
+
+.father-1 {
+  background-color: #FF5003;
+}
+
+.child-1 {
+  background-color: #FF6F00;
+  color: white;
+}
+.child-1 h3 {
+  font-size: 18px;
+}
+
+.father {
+  background-color: #B0926A;
+}
+
+.child {
+  background-color: #E1C78F;
+  color: white;
+}
+.child h3 {
+  font-size: 18px;
+}
+
+.pottery__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Hand_Grafted,
+.Pottery_Produts {
+  margin-top: 100px;
+}
+.Hand_Grafted h1,
+.Pottery_Produts h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+.Hand_Grafted p,
+.Pottery_Produts p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", sans-serif;
+}
+
+.Pottery {
+  margin-top: 100px;
+}
+.Pottery .pottery__text h1 {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.Pottery .pottery__cirlces {
+  margin-top: 50px;
+}
+
+.view {
+  margin-top: 50px;
+}
+.view .view__content .gold__img img {
+  width: 300px;
+  margin-left: 100px;
+}
+.view .view__content .gold {
+  display: flex;
+}
+.view .view__content .gold__info1 {
+  margin-top: 200px;
+}
+.view .view__content .gold__info1 h1 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+.view .view__content .gold__info1 p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.view .view__content .gold__info1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.view .view__text {
+  margin-bottom: 100px;
+}
+.view .gold__info {
+  margin-top: 100px;
+}
+.view .gold__info-view {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+.view .gold__img-koza {
+  margin-left: 50px;
+}
+
+.Collection__menus .menu {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.Collection__menus .menu a {
+  text-decoration: none;
+}
+.Collection__menus .menu h4 {
+  text-align: start;
+  margin: 10px 0px 0px 10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Collection__menus .menu h5 {
+  text-align: start;
+  margin: 10px 0px 0px 10px;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+}
+.Collection__menus .menu img {
+  width: 400px;
+}
+
+.Collection {
+  margin-top: 50px;
+}
+.Collection h1 {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 50px;
+}
+.Collection .menus__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+  margin: 80px 0px 0px 550px;
+  font-size: 14px;
+}
+
+.Shopping {
+  margin-top: 130px;
+  background-image: url("../imgs/bg-img-2.jpeg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.Shopping .Shopping__content .Shopping__text {
+  margin-top: 130px;
+}
+.Shopping .Shopping__content .Shopping__text h1 {
+  font-size: 44px;
+}
+.Shopping .Shopping__content .Shopping__text p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Shopping .Shopping__content .Shopping__text .red {
+  color: #a5081a;
+}
+.Shopping .Shopping__content .Shopping__text .red a {
+  text-decoration: none;
+}
+.Shopping .Shopping__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+  font-size: 11px;
+}
+
+.news .telegram__img img {
+  width: 100px;
+  margin: 100px 0px 50px 0px;
+}
+.news .news__text {
+  margin-top: 30px;
+}
+.news .news-email {
+  margin-top: 30px;
+  display: flex;
+  display: inline-block;
+}
+.news .news-email .email {
+  width: 270px;
+  border: 1px solid black;
+  background-color: #eee;
+  padding: 10px;
+}
+.news .news-email .email input {
+  border: none;
+  background-color: #eee;
+}
+.news .news-email .email img {
+  text-align: start;
+  width: 30px;
+}
+.news .news__btn {
+  padding: 13px 30px;
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+.news .news__chekboxs {
+  margin-top: 40px;
+}
+.news .news__chekboxs .checkbox-text {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #eee;
+}
+.footer .footer__contnet {
+  margin-top: 150px;
+}
+.footer .footer__contnet .footer__text {
+  margin: 150px 0px 0px 0px;
+}
+.footer .footer__contnet .footer__text p {
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
+}
+.footer .footer__box .for__email img {
+  width: 40px;
+}
+.footer .footer__box .for__email h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+.footer .footer__box .for__email p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .sup-footer {
+  margin-top: 100px;
+}
+.footer .sup-footer .sup-footer-text {
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .sup-footer .sup-footer-text a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media screen and (max-width: 650px) {
+  .gamburger {
+    display: block;
+  }
+  .navbar__menus {
+    display: none;
+  }
+  .porcelain .porcelain__info {
+    text-align: center;
+  }
+  .porcelain .porcelain__info span {
+    text-align: center;
+  }
+  .porcelain .porcelain__img img {
+    width: 540px;
+    margin-top: 50px;
+  }
+  .pottery__info .Pottery_Produts {
+    display: none;
+  }
+  .pottery__cirlces {
+    margin-bottom: 20px;
+  }
+  .menus__btn {
+    display: none;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar__logo img {
+  width: 150px;
+}
+.navbar .navbar__menus-img {
+  margin-top: 15px;
+}
+.navbar .white {
+  color: white;
+}
+.navbar .navbar__menus ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.navbar .navbar__menus ul li {
+  list-style: none;
+}
+.navbar .navbar__menus ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+.navbar .navbar__menus li:hover {
+  color: black;
+}
+.navbar .navbar-toggler {
+  display: none;
+}
+
+.red-text {
+  color: #900A22;
+  letter-spacing: 1.5px;
+}
+
+.gamburger {
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 3px;
+  margin: 20px;
+  display: none;
+}
+.gamburger p {
+  height: 3px;
+  background-color: black;
+  margin: 5px;
+}
+
+.porcelain {
+  background-image: url("../imgs/bg-img.jpg");
+  height: 1000px;
+}
+
+.porcelain span {
+  letter-spacing: 1.5px;
+}
+.porcelain .porcelain__content {
+  margin-top: 0px;
+}
+.porcelain .porcelain__content .porcelain__info {
+  display: inline;
+  margin-top: 100px;
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__text {
+  margin: 0px;
+  font-size: 54px;
+  font-family: "Libre Franklin", sans-serif;
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__p {
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.porcelain .porcelain__content .porcelain__info .porcelain__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+}
+.porcelain .porcelain__img {
+  margin-top: 200px;
+}
+
+.porcelain__text-img {
+  width: 80px;
+  display: inline-block;
+}
+
+.pottery__cirlces {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0px;
+}
+.pottery__cirlces .father,
+.pottery__cirlces .father-1,
+.pottery__cirlces .father-2 {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pottery__cirlces .child,
+.pottery__cirlces .child-1,
+.pottery__cirlces .child-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pottery__cirlces .child img,
+.pottery__cirlces .child-1 img,
+.pottery__cirlces .child-2 img {
+  width: 70px;
+}
+.pottery__cirlces .child h3,
+.pottery__cirlces .child-1 h3,
+.pottery__cirlces .child-2 h3 {
+  display: block;
+}
+
+.father-2 {
+  background-color: #800614;
+}
+
+.child-2 {
+  background-color: #a5081a;
+  color: white;
+}
+.child-2 h3 {
+  font-size: 18px;
+}
+
+.father-1 {
+  background-color: #FF5003;
+}
+
+.child-1 {
+  background-color: #FF6F00;
+  color: white;
+}
+.child-1 h3 {
+  font-size: 18px;
+}
+
+.father {
+  background-color: #B0926A;
+}
+
+.child {
+  background-color: #E1C78F;
+  color: white;
+}
+.child h3 {
+  font-size: 18px;
+}
+
+.pottery__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Hand_Grafted,
+.Pottery_Produts {
+  margin-top: 100px;
+}
+.Hand_Grafted h1,
+.Pottery_Produts h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+.Hand_Grafted p,
+.Pottery_Produts p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Poppins", sans-serif;
+}
+
+.Pottery {
+  margin-top: 100px;
+}
+.Pottery .pottery__text h1 {
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+.Pottery .pottery__cirlces {
+  margin-top: 50px;
+}
+
+.view {
+  margin-top: 50px;
+}
+.view .view__content .gold__img img {
+  width: 300px;
+  margin-left: 100px;
+}
+.view .view__content .gold {
+  display: flex;
+}
+.view .view__content .gold__info1 {
+  margin-top: 200px;
+}
+.view .view__content .gold__info1 h1 {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+.view .view__content .gold__info1 p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.view .view__content .gold__info1 a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.view .view__text {
+  margin-bottom: 100px;
+}
+.view .gold__info {
+  margin-top: 100px;
+}
+.view .gold__info-view {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+.view .gold__img-koza {
+  margin-left: 50px;
+}
+
+.Collection__menus .menu {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.Collection__menus .menu a {
+  text-decoration: none;
+}
+.Collection__menus .menu h4 {
+  text-align: start;
+  margin: 10px 0px 0px 10px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Collection__menus .menu h5 {
+  text-align: start;
+  margin: 10px 0px 0px 10px;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+}
+.Collection__menus .menu img {
+  width: 400px;
+}
+
+.Collection {
+  margin-top: 50px;
+}
+.Collection h1 {
+  margin-top: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 50px;
+}
+.Collection .menus__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+  margin: 80px 0px 0px 550px;
+  font-size: 14px;
+}
+
+.Shopping {
+  margin-top: 130px;
+  background-image: url("../imgs/bg-img-2.jpeg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.Shopping .Shopping__content .Shopping__text {
+  margin-top: 130px;
+}
+.Shopping .Shopping__content .Shopping__text h1 {
+  font-size: 44px;
+}
+.Shopping .Shopping__content .Shopping__text p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.Shopping .Shopping__content .Shopping__text .red {
+  color: #a5081a;
+}
+.Shopping .Shopping__content .Shopping__text .red a {
+  text-decoration: none;
+}
+.Shopping .Shopping__btn {
+  margin-top: 40px;
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+  font-size: 11px;
+}
+
+.news .telegram__img img {
+  width: 100px;
+  margin: 100px 0px 50px 0px;
+}
+.news .news__text {
+  margin-top: 30px;
+}
+.news .news-email {
+  margin-top: 30px;
+  display: flex;
+  display: inline-block;
+}
+.news .news-email .email {
+  width: 270px;
+  border: 1px solid black;
+  background-color: #eee;
+  padding: 10px;
+}
+.news .news-email .email input {
+  border: none;
+  background-color: #eee;
+}
+.news .news-email .email img {
+  text-align: start;
+  width: 30px;
+}
+.news .news__btn {
+  padding: 13px 30px;
+  background-color: #000000;
+  color: white;
+  border: none;
+}
+.news .news__chekboxs {
+  margin-top: 40px;
+}
+.news .news__chekboxs .checkbox-text {
+  color: rgba(0, 0, 0, 0.6);
+  margin-left: 10px;
+}
+
+.footer {
+  background-color: #eee;
+}
+.footer .footer__contnet {
+  margin-top: 150px;
+}
+.footer .footer__contnet .footer__text {
+  margin: 150px 0px 0px 0px;
+}
+.footer .footer__contnet .footer__text p {
+  margin-top: 10px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 50px;
+}
+.footer .footer__box .for__email img {
+  width: 40px;
+}
+.footer .footer__box .for__email h2 {
+  font-size: 20px;
+  margin: 10px;
+}
+.footer .footer__box .for__email p {
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .sup-footer {
+  margin-top: 100px;
+}
+.footer .sup-footer .sup-footer-text {
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer .sup-footer .sup-footer-text a {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media screen and (max-width: 650px) {
+  .gamburger {
+    display: block;
+  }
+  .navbar__menus {
+    display: none;
+  }
+  .porcelain .porcelain__info {
+    text-align: center;
+  }
+  .porcelain .porcelain__info span {
+    text-align: center;
+  }
+  .porcelain .porcelain__img img {
+    width: 540px;
+    margin-top: 50px;
+  }
+  .pottery__info .Pottery_Produts {
+    display: none;
+  }
+  .pottery__cirlces {
+    margin-bottom: 20px;
+  }
+  .menus__btn {
+    display: none;
+  }
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .navbar__logo img {
+  width: 150px;
+}
+
+.navbar .navbar__menus-img {
+  margin-top: 15px;
+}
+
+.navbar .white {
+  color: white;
+}
+
+.navbar .navbar__menus ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar .navbar__menus ul li {
+  list-style: none;
+}
+
+.navbar .navbar__menus ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar .navbar__menus li:hover {
+  color: black;
+}
+
+.navbar .navbar-toggler {
+  display: none;
+}
+
+.red-text {
+  color: #900A22;
+  letter-spacing: 1.5px;
+}
+
+.banner {
+  background-image: url("../imgs/chaynik-bg.jpg");
+  height: 450px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.About-us .About-us-text {
+  margin-top: 150px;
+}
+.About-us .About-us-text h1 {
+  font-size: 54px;
+}
+.About-us .About-us-text p {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-2 {
+  background-color: #eee;
+}
+
+.talent .talent__box {
+  display: flex;
+  justify-content: space-evenly;
+}
+.talent .talent__text {
+  margin-top: 50px;
+}
+.talent .talent__text h1 {
+  margin: 40px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.8px;
+}
+.talent .talent__cards {
+  padding-bottom: 50px;
+}
+.talent .talent__cards .talent__card {
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  padding: 30px 30px;
+}
+.talent .talent__cards .talent__card h3 {
+  font-size: 20px;
+}
+.talent .talent__cards .talent__card h4 {
+  font-size: 12px;
+  margin-top: 25px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.talent .talent__cards .talent__card p {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: 40px;
+}
+.talent .talent__cards .talent__card .icons img {
+  width: 30px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.talent .talent__cards .talent__card .talent__img-2 {
+  width: 110px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+}
+.talent .talent__cards .talent__card .talent__img {
+  margin-bottom: 30px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.jigarang-koza-2 {
+  margin-top: 200px;
+}
+
+.footer__text {
+  margin-top: 50px;
+}
+
+.bacground-img {
+  background-image: url("../imgs/choyne-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.choyne-text {
+  margin-bottom: 80px;
+}
+
+.xabar {
+  background-color: white;
+}
+
+.for__email2 {
+  margin-top: 30px;
+}
+.for__email2 h2 {
+  font-size: 14px;
+}
+
+.drop__img {
+  background-image: url("../imgs/choy-bg.png");
+  height: 200px;
+  margin-top: 50px;
+}
+
+.drop .drop__box {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.drop .drop__contener .black__img {
+  padding: 50px 80px;
+}
+.drop .drop__contener .black__img .black {
+  height: 550px;
+  width: 500px;
+  background-color: #eee;
+}
+.drop .drop__text {
+  margin-top: 50px;
+}
+.drop .drop__text h1 {
+  margin-bottom: 10px;
+}
+.drop .drop__text .label {
+  margin-left: 200px;
+}
+.drop .drop__text label {
+  margin: 20px 0px 10px 0px;
+}
+.drop .drop__text input {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.drop .drop__text textarea {
+  width: 500px;
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.drop .drop__btm {
+  padding: 20px 30px;
+  background-color: #a5081a;
+  border: none;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .drop {
+    display: none;
+  }
+}/*# sourceMappingURL=contact.css.map */

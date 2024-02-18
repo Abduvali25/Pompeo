@@ -1,0 +1,129 @@
+@import "./fontss";
+@import "./main.scss";
+@import "./main.css";
+
+
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .navbar .navbar__logo img {
+    width: 150px;
+  }
+  .navbar .navbar__menus-img {
+    margin-top: 15px;
+  }
+  .navbar .white {
+    color: white;
+  }
+  .navbar .navbar__menus ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .navbar .navbar__menus ul li {
+    list-style: none;
+  }
+  .navbar .navbar__menus ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .navbar .navbar__menus li:hover {
+    color: black;
+  }
+  .navbar .navbar-toggler {
+    display: none;
+  }
+  
+  .red-text {
+    color: #900A22;
+    letter-spacing: 1.5px;
+  }
+  .banner{
+    background-image: url("../imgs/chaynik-bg.jpg");
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+  }
+  .About-us{
+    .About-us-text{
+        margin-top: 150px;
+
+        h1{
+            font-size: 54px;
+        }
+        p{
+            font-size: 16px;
+            color: rgba($color: #000000, $alpha: 0.6);
+        }
+    }
+  }
+  .banner-2{
+    background-color: #eee;
+  }
+  .talent{
+      .talent__box{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .talent__text{
+        margin-top: 50px;
+
+        h1{
+            margin: 40px;
+            font-family: $poppins-font;
+            letter-spacing: 0.8px;
+        }
+      }
+    .talent__cards{
+       padding-bottom: 50px ;
+        .talent__card{
+
+               background-color: white;
+               width: 350px;
+               height: 400px;
+               padding: 30px 30px;
+               h3{
+                font-size: 20px;
+               }
+               h4{
+                font-size: 12px;
+                margin-top: 25px;
+                color: rgba($color: #000000, $alpha: 0.6);
+               }
+               p{
+                font-size: 14px;
+                color: rgba($color: #000000, $alpha: 0.6);
+                margin-top: 40px;
+               }
+               
+              
+            .icons img{
+                width: 30px;
+                border: 1px solid black;
+                padding: 5px;
+            }
+            .talent__img-2{
+                width: 110px;
+               margin-bottom: 30px;
+                border-radius: 50%;
+            }
+            .talent__img{
+                margin-bottom: 30px;
+                width: 100px;
+                
+                border-radius: 50%;
+            }
+        }
+    }
+  }
+  .jigarang-koza-2{
+    margin-top: 200px;
+  }
+
+.footer__text{
+    margin-top: 50px;
+}

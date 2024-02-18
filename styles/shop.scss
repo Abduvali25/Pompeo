@@ -1,0 +1,13 @@
+@import "./main.scss";
+@import "./about.scss";
+
+.bacground-img{
+    background-image: url("../imgs/choyne-bg.jpg");
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.choyne-text{
+    margin-bottom: 80px;
+}

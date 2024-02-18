@@ -1,0 +1,534 @@
+@import "./fontss";
+
+
+
+
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+
+    .navbar__logo img {
+        width: 150px;
+    }
+
+    .navbar__menus-img {
+        margin-top: 15px;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .navbar__menus {
+
+
+
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            li {
+
+                list-style: none;
+
+
+                a {
+                    text-decoration: none;
+                    color: rgba($color: #000000, $alpha: 0.6);
+                }
+            }
+        }
+    }
+
+    .navbar__menus li:hover {
+        color: rgba($color: #000000, $alpha: 1);
+    }
+
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+.red-text {
+    color: #900A22;
+    letter-spacing: 1.5px;
+}
+
+.gamburger {
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 20px;
+    display: none;
+
+    p {
+        height: 3px;
+        background-color: black;
+        margin: 5px;
+    }
+}
+
+.porcelain {
+    background-image: url("../imgs/bg-img.jpg");
+    height: 1000px;
+}
+
+.porcelain {
+    span {
+        letter-spacing: 1.5px;
+    }
+
+    .porcelain__content {
+        margin-top: 00px;
+
+        .porcelain__info {
+            display: inline;
+            margin-top: 100px;
+
+            .porcelain__text {
+                margin: 0px;
+                font-size: 54px;
+                font-family: $libre-font;
+            }
+
+            .porcelain__p {
+                font-size: 17px;
+                color: rgba($color: #000000, $alpha: 0.6);
+            }
+
+            .porcelain__btn {
+                margin-top: 40px;
+                padding: 20px 30px;
+                background-color: #a5081a;
+                border: none;
+                color: white;
+            }
+            
+        }
+    }
+    .porcelain__img{
+        margin-top: 200px;
+    }
+}
+
+.porcelain__text-img {
+    width: 80px;
+    display: inline-block;
+}
+
+.pottery__cirlces {
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0px;
+
+    .father,
+    .father-1,
+    .father-2 {
+        height: 250px;
+        width: 250px;
+
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .child,
+    .child-1,
+    .child-2 {
+        width: 200px;
+        height: 200px;
+
+        border-radius: 50%;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 70px;
+
+        }
+
+        h3 {
+            display: block;
+        }
+
+    }
+}
+
+.father-2 {
+    background-color: #800614;
+}
+
+.child-2 {
+    background-color: #a5081a;
+    color: white;
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+.father-1 {
+    background-color: #FF5003;
+}
+
+.child-1 {
+    background-color: #FF6F00;
+    color: white;
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+.father {
+    background-color: #B0926A;
+}
+
+.child {
+    background-color: #E1C78F;
+    color: white;
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+.pottery__info {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.Hand_Grafted,
+.Pottery_Produts {
+    margin-top: 100px;
+
+    h1 {
+        font-family: $poppins-font;
+        font-size: 32px;
+    }
+
+    p {
+        margin-top: 20px;
+        font-size: 16px;
+        color: rgba($color: #000000, $alpha: 0.6);
+        font-family: $poppins-font;
+    }
+}
+
+.Pottery {
+    margin-top: 100px;
+
+    .pottery__text {
+
+        h1 {
+            margin-top: 10px;
+            font-family: $poppins-font;
+        }
+
+    }
+
+    .pottery__cirlces {
+        margin-top: 50px;
+    }
+
+}
+
+.view {
+    margin-top: 50px;
+
+    .view__content {
+
+
+        .gold__img img {
+            width: 300px;
+            margin-left: 100px;
+        }
+
+        .gold {
+            display: flex;
+
+        }
+
+        .gold__info1 {
+            margin-top: 200px;
+
+            h1 {
+                font-size: 28px;
+                font-family: $poppins-font;
+
+            }
+
+            p {
+                color: rgba($color: #000000, $alpha: 0.6);
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .view__text {
+        margin-bottom: 100px;
+    }
+
+    .gold__info {
+        margin-top: 100px;
+    }
+
+    .gold__info-view {
+
+        text-decoration: none;
+        color: #000000;
+        font-size: 16px;
+
+    }
+
+    .gold__img-koza {
+        margin-left: 50px;
+    }
+}
+
+.Collection__menus {
+
+    .menu {
+       
+        margin-bottom: 20px;
+
+        a {
+            text-decoration: none;
+        }
+
+        h4 {
+
+            text-align: start;
+            margin: 10px 0px 0px 10px;
+            font-size: 20px;
+            color: rgba($color: #000000, $alpha: 0.6);
+             
+
+        }
+
+        h5 {
+            text-align: start;
+            margin: 10px 0px 0px 10px;
+            font-size: 16px;
+            border-bottom: 1px solid black;
+           
+        }
+
+        display: inline-block;
+
+        img {
+            width: 400px;
+        }
+    }
+}
+
+.Collection {
+    margin-top: 50px;
+
+    h1 {
+        margin-top: 20px;
+        font-family: $poppins-font;
+        margin-bottom: 50px;
+    }
+
+    .menus__btn {
+        margin-top: 40px;
+        padding: 20px 30px;
+        background-color: #a5081a;
+        border: none;
+        color: white;
+        margin: 80px 0px 0px 550px;
+        font-size: 14px;
+    }
+}
+
+    .Shopping{
+        margin-top: 130px;
+       background-image: url("../imgs/bg-img-2.jpeg");
+       height: 400px;
+       background-position: center;
+       background-size: cover;
+       width: 100%;
+
+       .Shopping__content{
+
+        .Shopping__text{
+             margin-top: 130px;
+             
+             h1{
+                font-size: 44px;
+             }
+             p{
+                font-size: 16px;
+                color: rgba($color: #000000, $alpha: 0.6);
+             }
+             .red{
+                color: $color-red;
+                a{
+                    text-decoration: none;
+                }
+                
+             }
+
+        }
+       }
+       .Shopping__btn{
+        margin-top: 40px;
+        padding: 20px 30px;
+        background-color: #a5081a;
+        border: none;
+        color: white;
+        font-size: 11px;
+       }
+       
+    }
+
+.news{
+
+    .telegram__img{
+        img{
+            width: 100px;
+            margin: 100px 0px 50px 0px;
+        }
+    }
+    .news__text{
+        margin-top: 30px;
+    }
+    .news-email{
+        margin-top: 30px;
+        display: flex;
+      
+       display:inline-block;
+
+        .email{
+            width: 270px;
+          border:1px solid black;
+          background-color: #eee;
+          padding: 10px;
+
+          input{
+            border: none;
+            background-color: #eee;
+            
+          }
+
+          img{
+            text-align: start;
+            width: 30px;
+          }
+        }
+    }
+    .news__btn{
+        padding: 13px 30px;
+        background-color: #000000;
+        color: white;
+        border: none;
+    }
+    .news__chekboxs{
+        margin-top: 40px;
+
+        .checkbox-text{
+            color: rgba($color: #000000, $alpha: 0.6);
+            margin-left: 10px;
+        }
+    }
+    
+}
+.footer{
+    background-color: #eee;
+    .footer__contnet{
+          margin-top: 150px;
+        .footer__text{
+            margin:150px 0px 0px 0px;
+
+            p{
+                margin-top: 10px;
+                font-size: 16px;
+                letter-spacing: 1px;
+                color: rgba($color: #000000, $alpha: 0.6);
+                margin-bottom: 50px;
+            }
+        }
+    }
+    .footer__box{
+        .for__email{
+            img{
+                width: 40px;
+            }
+            h2{
+                font-size: 20px;
+                margin: 10px;
+            }
+            p{
+                color: rgba($color: #000000, $alpha: 0.6);
+            }
+        }
+    }
+    .sup-footer{
+        margin-top: 100px;
+
+        .sup-footer-text{
+            color: rgba($color: #000000, $alpha: 0.6);
+            a{
+                text-decoration: none;
+                color: #000000;
+            }
+        }
+    }
+}
+@media screen and (max-width:650px) {
+    .gamburger {
+        display: block;
+    }
+
+    .navbar__menus {
+        display: none;
+    }
+
+    .porcelain {
+        .porcelain__info {
+            text-align: center;
+
+            span {
+                text-align: center;
+            }
+        }
+
+        .porcelain__img img {
+            width: 540px;
+            margin-top: 50px;
+        }
+    }
+
+    .pottery__info {
+        .Pottery_Produts {
+            display: none;
+        }
+    }
+
+    .pottery__cirlces {
+        margin-bottom: 20px;
+    }
+    .menus__btn{
+        display: none;
+    }
+}
